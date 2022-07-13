@@ -1,0 +1,279 @@
+{
+  "records": [
+    {
+      "id": 1,
+      "title": "Un Verano Sin Ti",
+      "artist": "Bad Bunny",
+      "image": "https://ia902502.us.archive.org/21/items/mbid-aded3f90-b758-451a-aad7-711d5985b05f/mbid-aded3f90-b758-451a-aad7-711d5985b05f-32432776461_thumb250.jpg",
+      "year": 2022,
+      "genre": "Latin",
+      "subGenre": "Reggaeton",
+      "audio": "",
+      "price": "$22.00"
+    },
+    {
+      "id": 2,
+      "title": "We Broke the Rules",
+      "artist": "Avenura",
+      "image": "https://ia600806.us.archive.org/2/items/mbid-03107616-7984-4064-b0e1-32b6aebc40f6/mbid-03107616-7984-4064-b0e1-32b6aebc40f6-17708725452_thumb250.jpg",
+      "year": 2002,
+      "genre": "Latin",
+      "subGenre": "Bachata",
+      "audio": "",
+      "price": "$15.00"
+    },
+    {
+      "id": 3,
+      "title": "Candela",
+      "artist": "Vicente Garcia",
+      "image": "https://ia803006.us.archive.org/28/items/mbid-417dacad-a1af-4900-b323-f957184df7d6/mbid-417dacad-a1af-4900-b323-f957184df7d6-23143575374_thumb250.jpg",
+      "year": 2019,
+      "genre": "Latin",
+      "subGenre": "Merengue",
+      "audio": "",
+      "price": "$15.00"
+    },
+    {
+      "id": 4,
+      "title": "Big Bang",
+      "artist": "Los Enanitos Verdes",
+      "image": "https://ia600405.us.archive.org/17/items/mbid-b6c7e63d-7897-438a-860c-43c11019554e/mbid-b6c7e63d-7897-438a-860c-43c11019554e-13288850226_thumb250.jpg",
+      "year": 1994,
+      "genre": "Rock",
+      "subGenre": "Rock en espanol",
+      "audio": "",
+      "price": "$10.00"
+    },
+    {
+      "id": 5,
+      "title": "Amor, Amor",
+      "artist": "Jose Jose",
+      "image": "https://ia802202.us.archive.org/17/items/mbid-13381693-5c9d-4a9b-837c-e5f84855d2d9/mbid-13381693-5c9d-4a9b-837c-e5f84855d2d9-31789193364_thumb250.jpg",
+      "year": 1980,
+      "genre": "Latin",
+      "subGenre": "Pop",
+      "audio": "",
+      "price": "$10.00"
+    },
+    {
+      "id": 6,
+      "title": "Straight Outta Compton",
+      "artist": "NWA",
+      "image": "https://ia800907.us.archive.org/2/items/mbid-d930166c-e5b6-420d-8177-e62f351f6859/mbid-d930166c-e5b6-420d-8177-e62f351f6859-5658377319_thumb250.jpg",
+      "year": 1988,
+      "genre": "Hip Hop",
+      "subGenre": "Rap",
+      "audio": "",
+      "price": "$15.00"
+    },
+    {
+      "id": 7,
+      "title": "Reasonable Doubt",
+      "artist": "JAY Z",
+      "image": "https://ia802804.us.archive.org/0/items/mbid-e9a5f123-447f-4430-8efb-0921e1761ddf/mbid-e9a5f123-447f-4430-8efb-0921e1761ddf-1585893879_thumb250.jpg",
+      "year": 1996,
+      "genre": "Hip Hop",
+      "subGenre": "Rap",
+      "audio": "",
+      "price": "$16.00"
+    },
+    {
+      "id": 8,
+      "title": "Man on the Moon: The End of Day",
+      "artist": "Kid Cudi",
+      "image": "https://ia601001.us.archive.org/13/items/mbid-cc2bc8f1-f54a-42d0-893f-90244c3b1a9d/mbid-cc2bc8f1-f54a-42d0-893f-90244c3b1a9d-31285907051_thumb250.jpg",
+      "year": 2009,
+      "genre": "Hip Hop",
+      "subGenre": "Alternative",
+      "audio": "",
+      "price": "$15.00"
+    },
+    {
+      "id": 9,
+      "title": "good kid, m.A.A.d city",
+      "artist": "Kendrick Lamar",
+      "image": "https://ia600904.us.archive.org/29/items/mbid-d5bcadc9-d6b2-4119-bf50-af1b9dca834c/mbid-d5bcadc9-d6b2-4119-bf50-af1b9dca834c-22057643526_thumb250.jpg",
+      "year": 2012,
+      "genre": "Hip Hop",
+      "subGenre": "Rap",
+      "audio": "",
+      "price": "$18.00"
+    },
+    {
+      "id": 10,
+      "title": "Shiesty Season",
+      "artist": "Pooh Shiesty",
+      "image": "https://ia803403.us.archive.org/25/items/mbid-05f15464-4e7c-43e3-9b11-22b191e58853/mbid-05f15464-4e7c-43e3-9b11-22b191e58853-29022622934_thumb250.jpg",
+      "year": 2021,
+      "genre": "Hip Hop",
+      "subGenre": "Trap",
+      "audio": "",
+      "price": "$14.00"
+    },
+    {
+      "id": 11,
+      "title": "Thriller",
+      "artist": "Michael Jackson",
+      "image": "https://ia601009.us.archive.org/9/items/mbid-897b7802-6317-492f-8da1-d94e3bf9cba9/mbid-897b7802-6317-492f-8da1-d94e3bf9cba9-24124266258_thumb250.jpg",
+      "year": 1982,
+      "genre": "Pop",
+      "subGenre": "R&B",
+      "audio": "",
+      "price": "$18.00"
+    },
+    {
+      "id": 12,
+      "title": "Millenium",
+      "artist": "Backstreet Boys",
+      "image": "https://ia600303.us.archive.org/20/items/mbid-d814137c-b260-4180-9a5a-fd38c8cbb0f1/mbid-d814137c-b260-4180-9a5a-fd38c8cbb0f1-1828375503_thumb250.jpg",
+      "year": 1999,
+      "genre": "Pop",
+      "subGenre": "Dancepop",
+      "audio": "",
+      "price": "$15.00"
+    },
+    {
+      "id": 13,
+      "title": "Good Girl Gone Bad",
+      "artist": "Rihanna",
+      "image": "https://ia804607.us.archive.org/22/items/mbid-b69775b1-93a9-470d-b7e8-bb862333a263/mbid-b69775b1-93a9-470d-b7e8-bb862333a263-8708105785_thumb250.jpg",
+      "year": 2007,
+      "genre": "Pop",
+      "subGenre": "R&B",
+      "audio": "",
+      "price": "$16.00"
+    },
+    {
+      "id": 14,
+      "title": "Starboy",
+      "artist": "The Weeknd",
+      "image": "https://ia802900.us.archive.org/2/items/mbid-8793ef8f-f1c1-4c58-90dd-268cf6d35a71/mbid-8793ef8f-f1c1-4c58-90dd-268cf6d35a71-25720578244_thumb250.jpg",
+      "year": 2016,
+      "genre": "Pop",
+      "subGenre": "R&B",
+      "audio": "",
+      "price": "$15.00"
+    },
+    {
+      "id": 15,
+      "title": "Future Nostalgia",
+      "artist": "Dua Lipa",
+      "image": "https://ia802903.us.archive.org/32/items/mbid-bb75b90b-02ad-49f3-b51f-0e65b1568b42/mbid-bb75b90b-02ad-49f3-b51f-0e65b1568b42-25777809840_thumb250.jpg",
+      "year": 2020,
+      "genre": "Pop",
+      "subGenre": "Dancepop",
+      "audio": "",
+      "price": ""
+    },
+    {
+      "id": 16,
+      "title": "Appetite for Destruction",
+      "artist": "Guns N' Roses",
+      "image":"https://ia802208.us.archive.org/22/items/mbid-7e1aaffd-3f00-4534-bddc-5ff88dc8600b/mbid-7e1aaffd-3f00-4534-bddc-5ff88dc8600b-31838425903_thumb250.jpg",
+      "year": 1987,
+      "genre": "Rock",
+      "subGenre": "Hard Rock",
+      "audio": "",
+      "price": "$13.00"
+    },
+    {
+      "id": 17,
+      "title": "Nevermind",
+      "artist": "Nirvana",
+      "image": "https://ia902707.us.archive.org/31/items/mbid-eccae410-7577-4daa-b602-92d305828331/mbid-eccae410-7577-4daa-b602-92d305828331-9470150007_thumb250.jpg",
+      "year": 1991,
+      "genre": "Rock",
+      "subGenre": "Grunge",
+      "audio": "",
+      "price": "$15.00"
+    },
+    {
+      "id": 18,
+      "title": "Infinity on High",
+      "artist": "Fall Out Boy",
+      "image": "https://ia801705.us.archive.org/35/items/mbid-c99ffd93-b81e-49e1-86b7-e8b74e0afc79/mbid-c99ffd93-b81e-49e1-86b7-e8b74e0afc79-31326176628_thumb250.jpg",
+      "year": 2007,
+      "genre": "Rock",
+      "subGenre": "Punk",
+      "audio": "",
+      "price": "$14.00"
+    },
+    {
+      "id": 19,
+      "title": "Paramore",
+      "artist": "Paramore",
+      "image": "https://ia803201.us.archive.org/6/items/mbid-846ba3b2-31ab-42a8-ad1b-837cd6da0392/mbid-846ba3b2-31ab-42a8-ad1b-837cd6da0392-29813760081_thumb250.jpg",
+      "year": 2013,
+      "genre": "Rock",
+      "subGenre": "Punk",
+      "audio": "",
+      "price": "$16.00"
+    },
+    {
+      "id": 20,
+      "title": "Sour",
+      "artist": "Olivia Rodrigo",
+      "image": "https://ia904607.us.archive.org/8/items/mbid-4d91d37f-54dd-4f87-aeb9-891213e60fb8/mbid-4d91d37f-54dd-4f87-aeb9-891213e60fb8-31524843678_thumb250.jpg",
+      "year": 2021,
+      "genre": "Rock",
+      "subGenre": "Alternative",
+      "audio": "",
+      "price": "$16.00"
+    },
+    {
+      "id": 21,
+      "title": "You Can Dance",
+      "artist": "Madonna",
+      "image": "https://ia801302.us.archive.org/14/items/mbid-fe35bd90-e2ed-4e95-981d-3d3a8ff1c754/mbid-fe35bd90-e2ed-4e95-981d-3d3a8ff1c754-12012663280_thumb250.jpg",
+      "year": 1987,
+      "genre": "Dance",
+      "subGenre": "Pop",
+      "audio": "",
+      "price": "$18.00"
+    },
+    {
+      "id": 22,
+      "title": "The Album",
+      "artist": "Haddaway",
+      "image": "https://ia801905.us.archive.org/1/items/mbid-4cf28da2-8547-47a7-890b-2a2409770986/mbid-4cf28da2-8547-47a7-890b-2a2409770986-4275046018_thumb250.jpg",
+      "year": 1993,
+      "genre": "Dance",
+      "subGenre": "Eurodance",
+      "audio": "",
+      "price": "$15.00"
+    },
+    {
+      "id": 23,
+      "title": "Discovery",
+      "artist": "Daft Punk",
+      "image": "https://ia802503.us.archive.org/8/items/mbid-bd3bb36e-16c8-438f-850e-dfbf4d1478f0/mbid-bd3bb36e-16c8-438f-850e-dfbf4d1478f0-32131859683_thumb250.jpg",
+      "year": 2001,
+      "genre": "Dance",
+      "subGenre": "House",
+      "audio": "",
+      "price": "$17.00"
+    },
+    {
+      "id": 24,
+      "title": "Racine Carrée",
+      "artist": "Stromae",
+      "image": "https://ia800903.us.archive.org/27/items/mbid-b1574416-8c3e-4585-a7c2-e9fd0aec0a86/mbid-b1574416-8c3e-4585-a7c2-e9fd0aec0a86-22497598666_thumb250.jpg",
+      "year": 2013,
+      "genre": "Dance",
+      "subGenre": "House",
+      "audio": "",
+      "price": "$15.00"
+    },
+    {
+      "id": 25,
+      "title": "Paradise Again",
+      "artist": "Swedish House Mafia",
+      "image": "https://ia802502.us.archive.org/32/items/mbid-7d32afb7-6c2d-4a62-9a12-b037d6fcfced/mbid-7d32afb7-6c2d-4a62-9a12-b037d6fcfced-32249599773_thumb250.jpg",
+      "year": 2022,
+      "genre": "Dance",
+      "subGenre": "House",
+      "audio": "",
+      "price": "$13.00"
+    }
+  ]
+}
