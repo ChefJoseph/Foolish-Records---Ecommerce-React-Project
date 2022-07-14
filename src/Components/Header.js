@@ -1,18 +1,16 @@
 import React from 'react';
-// import NavBar from './NavBar';
-// import SearchFilter from './SearchFilter';
-import Banner from './Banner'
+// import Banner from './Banner'
+import Slider from './slider/slider'
 
-function Header ({search, setSearch, records, filteredrecords}) {
+function Header () {
 
     return (
-      <div className = "App">
-        <h1 className = "h1">FOOLISH RECORDS </h1>
+      <div >
+        <p className="titleheader">FOOLISH RECORDS</p>
+        <Slider/>
+        {/* <Banner /> */}
         
-        <Banner />
-        
-        
-        {/* <SearchFilter search = {search} setSearch={setSearch} records= {records} filteredrecords={filteredrecords} /> */}
+    
       </div>
     );
   }

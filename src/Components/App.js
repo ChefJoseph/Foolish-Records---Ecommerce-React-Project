@@ -1,58 +1,78 @@
 
 import '../App.css';
-// import 'react-slideshow-image/dist/styles.css'
-// import { Slide } from 'react-slideshow-image'
-import React, {useState,useEffect} from 'react';
+
+import React, {useState, useEffect} from 'react';
 import Header from './Header'
-import RecordContainer from './RecordContainer'
-// import ShoppingCart from './ShoppingCart';
-import SearchFilter from './SearchFilter';
+
+
 import {Switch, Route, Routes} from "react-router-dom"
 import Home from '../Pages/Home'
-import Shop from '../Pages/Shop'
+import Store from '../Pages/Store'
 import TwitterFeed from '../Pages/TwitterFeed'
 import NavBar from './NavBar';
+import {Container} from 'react-bootstrap'
+import ShoppingCart from './ShoppingCart'
+// import Slider from './slider/slider'
 
-function App() {
-
-  const [records, setrecords] = useState([])
-  useEffect (()=> {
-  fetch('http://localhost:5001/records')
-  .then(res=>res.json())
-  .then(data => setrecords(data))
- 
-  },[])
-
-  const [search, setSearch] = useState("")
-  const filteredrecords = 
-  records.filter(record => 
-    record.title.toLowerCase().includes(search.toLowerCase())||
-    record.artist.toLowerCase().includes(search.toLowerCase())||
-    record.year.toString().includes(search.toString())||
-    record.genre.toLowerCase().includes(search.toLowerCase())||
-    record.subGenre.toLowerCase().includes(search.toLowerCase())
-  )
-
-
-    // const [page, setPage] = useState("/")
+function App () {
+  const [cart, setCart] = useState([]);
   
+  const handleClick = (item) => {
+    // Update cart item quantity if already in cart
+    if (cart.some((cartItem) => cartItem === item)) {
+      setCart((cart) =>
+        cart.map((cartItem) =>
+          cartItem === item
+            ? {
+                ...cartItem,
+                amount: cartItem +1
+              }
+            : cartItem
+        )
+      );
+      return;
+    }
 
+    // Add to cart
+    setCart((cart) => [
+      ...cart,
+      { ...item, amount: 1 } // <-- initial amount 1
+    ]);
+  };
+
+  const handleChange = (productCode, d) => {
+    setCart((cart) =>
+      cart.flatMap((cartItem) =>
+        cartItem.productCode === productCode
+          ? cartItem.amount + d < 1
+            ? [] // <-- remove item if amount will be less than 1
+            : [
+                {
+                  ...cartItem,
+                  amount: cartItem.amount + d
+                }
+              ]
+          : [cartItem]
+      )
+    );
+  };
 
   return (
+    
     <div >
-      <Header search = {search} setSearch={setSearch} records= {records} filteredrecords={filteredrecords} /> 
-      <NavBar/>
+      
+      <Header cart={cart}/> 
+      <NavBar cart={cart}/>
+      <Container className = "mb-4">
       <Routes>
       <Route exact path="/" element ={<Home/>} />
-      <Route path="/Shop" element ={<Shop/>} />
+      <Route path="/Store" element ={<Store handleClick={handleClick}/>} />
       <Route path="/TwitterFeed" element ={<TwitterFeed/>} />
+      <Route path="/Cart" element={<ShoppingCart setCart= {setCart} cart={cart}/>}/>
       </Routes>
-
-      <SearchFilter search = {search} setSearch={setSearch} records= {records} filteredrecords={filteredrecords} />
-      <RecordContainer records={records} setrecords={setrecords}
-      filteredrecords={filteredrecords} />
-     
+     </Container>
     </div>
+    
   );
 }
 

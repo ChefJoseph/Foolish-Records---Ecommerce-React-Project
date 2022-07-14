@@ -9,7 +9,7 @@
       "genre": "Latin",
       "subGenre": "Reggaeton",
       "audio": "",
-      "price": "$22.00"
+      "price": 22.00
     },
     {
       "id": 2,
@@ -20,7 +20,7 @@
       "genre": "Latin",
       "subGenre": "Bachata",
       "audio": "",
-      "price": "$15.00"
+      "price": 15.00
     },
     {
       "id": 3,
@@ -31,7 +31,7 @@
       "genre": "Latin",
       "subGenre": "Merengue",
       "audio": "",
-      "price": "$15.00"
+      "price": 15.00
     },
     {
       "id": 4,
@@ -42,7 +42,7 @@
       "genre": "Rock",
       "subGenre": "Rock en espanol",
       "audio": "",
-      "price": "$10.00"
+      "price": 10.00
     },
     {
       "id": 5,
@@ -53,7 +53,7 @@
       "genre": "Latin",
       "subGenre": "Pop",
       "audio": "",
-      "price": "$10.00"
+      "price": 10.00
     },
     {
       "id": 6,
@@ -64,7 +64,7 @@
       "genre": "Hip Hop",
       "subGenre": "Rap",
       "audio": "",
-      "price": "$15.00"
+      "price": 15.00
     },
     {
       "id": 7,
@@ -75,7 +75,7 @@
       "genre": "Hip Hop",
       "subGenre": "Rap",
       "audio": "",
-      "price": "$16.00"
+      "price": 16.00
     },
     {
       "id": 8,
@@ -86,7 +86,7 @@
       "genre": "Hip Hop",
       "subGenre": "Alternative",
       "audio": "",
-      "price": "$15.00"
+      "price": 15.00
     },
     {
       "id": 9,
@@ -97,7 +97,7 @@
       "genre": "Hip Hop",
       "subGenre": "Rap",
       "audio": "",
-      "price": "$18.00"
+      "price": 18.00
     },
     {
       "id": 10,
@@ -108,7 +108,7 @@
       "genre": "Hip Hop",
       "subGenre": "Trap",
       "audio": "",
-      "price": "$14.00"
+      "price": 14.00
     },
     {
       "id": 11,
@@ -119,7 +119,7 @@
       "genre": "Pop",
       "subGenre": "R&B",
       "audio": "",
-      "price": "$18.00"
+      "price": 18.00
     },
     {
       "id": 12,
@@ -130,7 +130,7 @@
       "genre": "Pop",
       "subGenre": "Dancepop",
       "audio": "",
-      "price": "$15.00"
+      "price": 15.00
     },
     {
       "id": 13,
@@ -141,7 +141,7 @@
       "genre": "Pop",
       "subGenre": "R&B",
       "audio": "",
-      "price": "$16.00"
+      "price": 16.00
     },
     {
       "id": 14,
@@ -152,7 +152,7 @@
       "genre": "Pop",
       "subGenre": "R&B",
       "audio": "",
-      "price": "$15.00"
+      "price": 15.00
     },
     {
       "id": 15,
@@ -163,18 +163,18 @@
       "genre": "Pop",
       "subGenre": "Dancepop",
       "audio": "",
-      "price": ""
+      "price": 12.00
     },
     {
       "id": 16,
       "title": "Appetite for Destruction",
       "artist": "Guns N' Roses",
-      "image":"https://ia802208.us.archive.org/22/items/mbid-7e1aaffd-3f00-4534-bddc-5ff88dc8600b/mbid-7e1aaffd-3f00-4534-bddc-5ff88dc8600b-31838425903_thumb250.jpg",
+      "image": "https://ia802208.us.archive.org/22/items/mbid-7e1aaffd-3f00-4534-bddc-5ff88dc8600b/mbid-7e1aaffd-3f00-4534-bddc-5ff88dc8600b-31838425903_thumb250.jpg",
       "year": 1987,
       "genre": "Rock",
       "subGenre": "Hard Rock",
       "audio": "",
-      "price": "$13.00"
+      "price": 13.00
     },
     {
       "id": 17,
@@ -185,7 +185,7 @@
       "genre": "Rock",
       "subGenre": "Grunge",
       "audio": "",
-      "price": "$15.00"
+      "price": 15.00
     },
     {
       "id": 18,
@@ -196,7 +196,7 @@
       "genre": "Rock",
       "subGenre": "Punk",
       "audio": "",
-      "price": "$14.00"
+      "price": 14.00
     },
     {
       "id": 19,
@@ -207,7 +207,7 @@
       "genre": "Rock",
       "subGenre": "Punk",
       "audio": "",
-      "price": "$16.00"
+      "price": 16.00
     },
     {
       "id": 20,
@@ -218,7 +218,7 @@
       "genre": "Rock",
       "subGenre": "Alternative",
       "audio": "",
-      "price": "$16.00"
+      "price": 16.00
     },
     {
       "id": 21,
@@ -229,7 +229,7 @@
       "genre": "Dance",
       "subGenre": "Pop",
       "audio": "",
-      "price": "$18.00"
+      "price": 18.00
     },
     {
       "id": 22,
@@ -240,7 +240,7 @@
       "genre": "Dance",
       "subGenre": "Eurodance",
       "audio": "",
-      "price": "$15.00"
+      "price": 15.00
     },
     {
       "id": 23,
@@ -251,7 +251,7 @@
       "genre": "Dance",
       "subGenre": "House",
       "audio": "",
-      "price": "$17.00"
+      "price": 17.00
     },
     {
       "id": 24,
@@ -262,7 +262,7 @@
       "genre": "Dance",
       "subGenre": "House",
       "audio": "",
-      "price": "$15.00"
+      "price": 15.00
     },
     {
       "id": 25,
@@ -273,7 +273,69 @@
       "genre": "Dance",
       "subGenre": "House",
       "audio": "",
-      "price": "$13.00"
+      "price": 13.00
+    }
+  ],
+  "email": [
+    {
+      "email": "ok",
+      "id": 1
+    },
+    {
+      "email": "jhirotsu@gmail.com",
+      "id": 2
+    },
+    {
+      "email": "ok",
+      "id": 3
+    },
+    {
+      "email": "Jhirotsu",
+      "id": 4
+    },
+    {
+      "email": "yes@gmail.com",
+      "id": 5
+    },
+    {
+      "email": "jake@statefarm.com",
+      "id": 6
+    },
+    {
+      "email": "jimmy",
+      "id": 7
+    },
+    {
+      "email": "dd",
+      "id": 8
+    },
+    {
+      "email": "jack@gmail.com",
+      "id": 9
+    },
+    {
+      "email": [],
+      "id": 10
+    },
+    {
+      "email": "",
+      "id": 11
+    },
+    {
+      "email": "",
+      "id": 12
+    },
+    {
+      "email": "chett@chett.com",
+      "id": 13
+    },
+    {
+      "email": "ulises@gmail.com",
+      "id": 14
+    },
+    {
+      "email": "nate@gmail.com",
+      "id": 15
     }
   ]
 }
