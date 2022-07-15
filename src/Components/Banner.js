@@ -1,5 +1,5 @@
 import React from 'react';
-// import banner from '../images/BeastieBoys-Banner.jpg'
+// 
 
 function Banner() {
 

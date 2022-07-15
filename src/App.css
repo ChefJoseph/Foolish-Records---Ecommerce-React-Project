@@ -113,6 +113,7 @@ h1 {
   /* align-items: center; */
   border-radius: 0.5em;
   background-color: white;
+ 
 }
 
 .nav-link{
@@ -142,7 +143,7 @@ h1 {
  
   background-color: rgba(250, 243, 243, 0.282);
 }
-.subscribe{
+.subscribe-field{
   font-family:'Courier New', Courier, monospace ;
   font-weight:600;
   font-size: 1.5em;
@@ -156,17 +157,24 @@ h1 {
  
   background-color: rgba(250, 243, 243, 0.282);
   position:absolute;
-  right:    2em;
+  right:    1em;
   top:   .5em;
+  width: 600px;
+}
+.subscribe-field{
+ 
+  position:flex;
+  font-family:'Courier New', Courier, monospace ;
 }
 .formfield{
   position: relative;
-  right:4em;
+  
 }
 .emailsubmit{
   position:absolute;
   font-family: "Arial";
-  right: 1em
+ 
+  
 }
 
 .raccoon-container {
@@ -219,6 +227,7 @@ h3 {width: 100%;
 
 .addbutton {
   position: absolute;
+  width: 3em;
   right:    1em;
   bottom:   1em;
   /* background: white; */
@@ -261,4 +270,36 @@ ul{
 .record-list {
   padding-top: 2em
 }
+.shopping-cart{
+  font-family:'Courier New', Courier, monospace ;
+  font-weight: bolder;
+  position:relative;
+  background-color: white;
+  font-size: 2em;
+  left: 1em;
+  width: 500px;
+}
+.shopping-image{
+  width:75px;
+  height:75px;
+}
+.shopping-cart__checkout{
+  position: relative;
+  top: 1em;
+  bottom: 1em;
+  width: 225px;
+}
+.total{
+  font-size:1.5em;
+  width: 225px;
+  
 
+}
+.total_checkoutbutton{
+  font-size:1.5em;
+  font-family: "Arial";
+}
+
+.h-100:hover{
+  background-color: lightgrey;
+}

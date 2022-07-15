@@ -15,9 +15,9 @@ function NavBar ({cart}) {
             <NavLink to="/cart">
 				    <Button
   // onClick={openCart}
-  style={{ width: "3rem", height: "3rem", position: "relative", color: "black"}}
-  variant="outline-primary"
-  className="rounded-circle "
+  style={{ width: "4rem", height: "4rem", position: "relative", color: "black"}}
+  variant="outline"
+  className="rounded-circle"
   
 >
   <svg
@@ -33,11 +33,14 @@ function NavBar ({cart}) {
     className="rounded-circle bg-danger d-flex justify-content-center align-items-center"
     style={{
       color: "white",
-      width: "1.5rem",
-      height: "1.5rem",
+      width: "2rem",
+      height: "2rem",
       position: "absolute",
       bottom: 0,
       right: 0,
+      fontWeight: "bold",
+      fontSize: "1.5em",
+
       transform: "translate(25%, 25%)",
     }}
   >

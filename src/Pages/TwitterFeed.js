@@ -8,7 +8,7 @@ export default function TwitterFeed() {
       onLoad={function noRefCheck(){}}
       options={{
         height: 1000,
-        width: 800
+        width:1200
       }}
       screenName="Classical33couk"
       sourceType="profile"

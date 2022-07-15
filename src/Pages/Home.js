@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import Slider from '../Components/slider/slider'
 
 function Home() {
    const [email, setEmail] = useState([])
@@ -22,8 +23,8 @@ function Home() {
   
     return (
         <div>
-        <form className="subscribe" onSubmit= {handleSubmitForm}>
-        <span>SUBSCRIBE:</span>
+        <form className="subscribe-field" onSubmit= {handleSubmitForm}>
+        <span className="subscribe">SUBSCRIBE:</span>
       <input 
         placeholder="E-mail" 
         value={email}
@@ -36,6 +37,7 @@ function Home() {
         value="SEND" 
       />
         </form>
+        <Slider/>
         </div>
     
     )

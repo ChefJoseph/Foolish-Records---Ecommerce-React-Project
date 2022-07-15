@@ -7,7 +7,7 @@ function Header () {
     return (
       <div >
         <p className="titleheader">FOOLISH RECORDS</p>
-        <Slider/>
+        {/* <Slider/> */}
         {/* <Banner /> */}
         
     
