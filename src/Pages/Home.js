@@ -1,7 +1,9 @@
 import React, {useState} from 'react'
 import Slider from '../Components/slider/slider'
+import {Col, Row} from "react-bootstrap"
+import { Card } from 'react-bootstrap';
 
-function Home() {
+function Home({filteredrecords}) {
    const [email, setEmail] = useState([])
 
 
@@ -38,6 +40,14 @@ function Home() {
       />
         </form>
         <Slider/>
+        <h2 className="trending">Trending</h2>
+        <Row md={2} xs={2} lg={2} className="g-4 record-list">
+       {filteredrecords.map(record => 
+        <Col key = {record.id}>
+          <Card.Img variant="top" src={record.image} alt={record.title} height= "250px" width="100px" style={{objectFit: "cover"}}/>
+        </Col>
+       )}
+      </Row>
         </div>
     
     )

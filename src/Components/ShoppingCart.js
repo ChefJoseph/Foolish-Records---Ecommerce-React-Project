@@ -1,10 +1,9 @@
 
 import React from 'react';
-import RecordDetail from './RecordDetail'
-import { Card } from 'react-bootstrap';
-import {Col, Row} from "react-bootstrap"
+
+import {Col} from "react-bootstrap"
 // Components
-import ShoppingCartItem from './ShoppingCartItem';
+
 
 function ShoppingCart ({cart, handleDelete, filterRecords}) {
     // console.log(cart)
@@ -18,8 +17,8 @@ function ShoppingCart ({cart, handleDelete, filterRecords}) {
         }
       
 	return (
-			<div className="bg-white shaow-sm mb-5 ">
-                <p className="shopping-cart">Your Shopping Cart</p>
+			<div className="shopping-cart">
+                <p className="shopping-title">Your Shopping Cart</p>
              <div >
                  {cart.map(recordData => {
             // console.log(recordData)
@@ -27,7 +26,7 @@ function ShoppingCart ({cart, handleDelete, filterRecords}) {
                 
                  <Col key={recordData.id} className="g-6 ">
                     <ul><li > 
-                    <img className="shopping-image" src={recordData.image}/>     </li>
+                    <img className="shopping-image" src={recordData.image} alt="ok"/>     </li>
                         <li className="fs-3">{recordData.title}</li>
                         <li className="fs-5 text-muted">{recordData.artist}</li>
                         <li className="fs-5 text-muted">{recordData.year}</li>

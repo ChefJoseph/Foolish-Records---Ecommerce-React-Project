@@ -195,12 +195,13 @@ h1 {
   gap: 2em;
 }
 
-h3 {width: 100%;
-  margin-block-start: 1vh;
-    margin-block-end: 1vh;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+.trending {
 
+  font-family:'Courier New';
+  font-size: 3em;
+  font-weight: 600;
+    text-align: center;
+    padding-top: 1em;
 }
 .raccoon-card {
   font-family: Neuzeit S,sans-serif;
@@ -262,41 +263,61 @@ h3 {width: 100%;
 
 li {
   list-style: none;
+  
 }
 ul{
-  left:0 em
+  left:0em;
+  border-style: solid;
+  border-color:rgb(233, 232, 232);
+  padding:0em;
+  margin:0em
 }
 
 .record-list {
   padding-top: 2em
 }
+.shopping-title{
+  font-family:'Courier New', Courier, monospace ;
+  font-weight: bolder;
+  position:relative;
+  
+  background-color: white;
+  font-size: 2em;
+  
+  width: 750px;
+  text-align: center;
+
+}
 .shopping-cart{
   font-family:'Courier New', Courier, monospace ;
   font-weight: bolder;
   position:relative;
+  left:285px;
   background-color: white;
   font-size: 2em;
-  left: 1em;
-  width: 500px;
+  
+  width: 750px;
+  
 }
+
 .shopping-image{
   width:75px;
   height:75px;
 }
 .shopping-cart__checkout{
   position: relative;
-  top: 1em;
-  bottom: 1em;
+left:500px;
+bottom: 0.5em;
   width: 225px;
 }
 .total{
-  font-size:1.5em;
+  font-size:1em;
   width: 225px;
   
 
 }
 .total_checkoutbutton{
-  font-size:1.5em;
+  font-size:1em;
   font-family: "Arial";
 }
 

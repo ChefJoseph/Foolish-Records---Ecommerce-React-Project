@@ -5,7 +5,7 @@ import React, {useState, useEffect} from 'react';
 import Header from './Header'
 
 
-import {Switch, Route, Routes} from "react-router-dom"
+import {Route, Routes} from "react-router-dom"
 import Home from '../Pages/Home'
 import Store from '../Pages/Store'
 import TwitterFeed from '../Pages/TwitterFeed'
@@ -88,7 +88,7 @@ function App () {
       <NavBar cart={cart}/>
       <Container className = "mb-4">
       <Routes>
-      <Route exact path="/" element ={<Home/>} />
+      <Route exact path="/" element ={<Home filteredrecords= {filteredrecords}/>} />
       
       <Route path="/Store" element ={<Store handleClick={handleClick} records={records} setRecords={setRecords} filterRecords={filterRecords} search={search} setSearch={setSearch} addToCart={addToCart} filteredrecords ={filteredrecords}/>} />
       
