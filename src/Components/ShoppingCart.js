@@ -29,7 +29,7 @@ function ShoppingCart ({cart, handleDelete, filterRecords}) {
                     <img className="shopping-image" src={recordData.image} alt="ok"/>     </li>
                         <li className="fs-3">{recordData.title}</li>
                         <li className="fs-5 text-muted">{recordData.artist}</li>
-                        <li className="fs-5 text-muted">{recordData.year}</li>
+                        {/* <li className="fs-5 text-muted">{recordData.year}</li> */}
                         <li className="fs-6 text-muted">${recordData.price}.00</li>
                     </ul>
           

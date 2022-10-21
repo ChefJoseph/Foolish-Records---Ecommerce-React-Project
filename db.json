@@ -1,16 +1,61 @@
 {
   "records": [
     {
-      "id": 1,
-      "title": "Un Verano Sin Ti",
-      "artist": "Bad Bunny",
-      "image": "https://ia902502.us.archive.org/21/items/mbid-aded3f90-b758-451a-aad7-711d5985b05f/mbid-aded3f90-b758-451a-aad7-711d5985b05f-32432776461_thumb250.jpg",
-      "year": 2022,
-      "genre": "Latin",
-      "subGenre": "Reggaeton",
+      "id": 11,
+      "title": "Thriller",
+      "artist": "Michael Jackson",
+      "image": "https://ia601009.us.archive.org/9/items/mbid-897b7802-6317-492f-8da1-d94e3bf9cba9/mbid-897b7802-6317-492f-8da1-d94e3bf9cba9-24124266258_thumb250.jpg",
+      "year": 1982,
+      "genre": "Pop",
+      "subGenre": "R&B",
       "audio": "",
-      "price": 22
+      "price": 18
     },
+    {
+      "id": 12,
+      "title": "Millenium",
+      "artist": "Backstreet Boys",
+      "image": "https://ia600303.us.archive.org/20/items/mbid-d814137c-b260-4180-9a5a-fd38c8cbb0f1/mbid-d814137c-b260-4180-9a5a-fd38c8cbb0f1-1828375503_thumb250.jpg",
+      "year": 1999,
+      "genre": "Pop",
+      "subGenre": "Dancepop",
+      "audio": "",
+      "price": 15
+    },
+    {
+      "id": 45,
+      "title": "Hybrid Theory",
+      "artist": "Linkin Park",
+      "image": "https://ia601203.us.archive.org/30/items/mbid-83c45b6c-69ee-4eb0-903b-bd944ed59d48/mbid-83c45b6c-69ee-4eb0-903b-bd944ed59d48-14504943757_thumb250.jpg",
+      "year": 2001,
+      "genre": "Rock",
+      "subGenre": "Alternative Rock",
+      "audio": "",
+      "price": 17
+    },
+    {
+      "id": 15,
+      "title": "Future Nostalgia",
+      "artist": "Dua Lipa",
+      "image": "https://ia802903.us.archive.org/32/items/mbid-bb75b90b-02ad-49f3-b51f-0e65b1568b42/mbid-bb75b90b-02ad-49f3-b51f-0e65b1568b42-25777809840_thumb250.jpg",
+      "year": 2020,
+      "genre": "Pop",
+      "subGenre": "Dancepop",
+      "audio": "",
+      "price": 12
+    },
+    {
+      "id": 43,
+      "title": "Taylor Swift",
+      "artist": "Taylor Swift",
+      "image": "https://ia801302.us.archive.org/7/items/mbid-c4637c8b-500f-4cf1-943d-bc2695884fb7/mbid-c4637c8b-500f-4cf1-943d-bc2695884fb7-11663268246_thumb250.jpg",
+      "year": 2006,
+      "genre": "Folk",
+      "subGenre": "Country",
+      "audio": "",
+      "price": 15
+    },
+   
     {
       "id": 2,
       "title": "We Broke the Rules",
@@ -30,6 +75,17 @@
       "year": 2019,
       "genre": "Latin",
       "subGenre": "Merengue",
+      "audio": "",
+      "price": 15
+    },
+    {
+      "id": 8,
+      "title": "Man on the Moon: The End of Day",
+      "artist": "Kid Cudi",
+      "image": "https://ia601001.us.archive.org/13/items/mbid-cc2bc8f1-f54a-42d0-893f-90244c3b1a9d/mbid-cc2bc8f1-f54a-42d0-893f-90244c3b1a9d-31285907051_thumb250.jpg",
+      "year": 2009,
+      "genre": "Hip Hop",
+      "subGenre": "Alternative",
       "audio": "",
       "price": 15
     },
@@ -77,17 +133,7 @@
       "audio": "",
       "price": 16
     },
-    {
-      "id": 8,
-      "title": "Man on the Moon: The End of Day",
-      "artist": "Kid Cudi",
-      "image": "https://ia601001.us.archive.org/13/items/mbid-cc2bc8f1-f54a-42d0-893f-90244c3b1a9d/mbid-cc2bc8f1-f54a-42d0-893f-90244c3b1a9d-31285907051_thumb250.jpg",
-      "year": 2009,
-      "genre": "Hip Hop",
-      "subGenre": "Alternative",
-      "audio": "",
-      "price": 15
-    },
+   
     {
       "id": 9,
       "title": "good kid, m.A.A.d city",
@@ -110,28 +156,8 @@
       "audio": "",
       "price": 14
     },
-    {
-      "id": 11,
-      "title": "Thriller",
-      "artist": "Michael Jackson",
-      "image": "https://ia601009.us.archive.org/9/items/mbid-897b7802-6317-492f-8da1-d94e3bf9cba9/mbid-897b7802-6317-492f-8da1-d94e3bf9cba9-24124266258_thumb250.jpg",
-      "year": 1982,
-      "genre": "Pop",
-      "subGenre": "R&B",
-      "audio": "",
-      "price": 18
-    },
-    {
-      "id": 12,
-      "title": "Millenium",
-      "artist": "Backstreet Boys",
-      "image": "https://ia600303.us.archive.org/20/items/mbid-d814137c-b260-4180-9a5a-fd38c8cbb0f1/mbid-d814137c-b260-4180-9a5a-fd38c8cbb0f1-1828375503_thumb250.jpg",
-      "year": 1999,
-      "genre": "Pop",
-      "subGenre": "Dancepop",
-      "audio": "",
-      "price": 15
-    },
+
+  
     {
       "id": 13,
       "title": "Good Girl Gone Bad",
@@ -154,17 +180,7 @@
       "audio": "",
       "price": 15
     },
-    {
-      "id": 15,
-      "title": "Future Nostalgia",
-      "artist": "Dua Lipa",
-      "image": "https://ia802903.us.archive.org/32/items/mbid-bb75b90b-02ad-49f3-b51f-0e65b1568b42/mbid-bb75b90b-02ad-49f3-b51f-0e65b1568b42-25777809840_thumb250.jpg",
-      "year": 2020,
-      "genre": "Pop",
-      "subGenre": "Dancepop",
-      "audio": "",
-      "price": 12
-    },
+    
     {
       "id": 16,
       "title": "Appetite for Destruction",
@@ -320,6 +336,17 @@
       "price": 18
     },
     {
+      "id": 1,
+      "title": "Un Verano Sin Ti",
+      "artist": "Bad Bunny",
+      "image": "https://ia902502.us.archive.org/21/items/mbid-aded3f90-b758-451a-aad7-711d5985b05f/mbid-aded3f90-b758-451a-aad7-711d5985b05f-32432776461_thumb250.jpg",
+      "year": 2022,
+      "genre": "Latin",
+      "subGenre": "Reggaeton",
+      "audio": "",
+      "price": 22
+    },
+    {
       "id": 30,
       "title": "Drunken Wordz, Sober Thoughtz",
       "artist": "Sevyn Streeter",
@@ -462,28 +489,7 @@
       "audio": "",
       "price": 25
     },
-    {
-      "id": 43,
-      "title": "Taylor Swift",
-      "artist": "Taylor Swift",
-      "image": "https://ia801302.us.archive.org/7/items/mbid-c4637c8b-500f-4cf1-943d-bc2695884fb7/mbid-c4637c8b-500f-4cf1-943d-bc2695884fb7-11663268246_thumb250.jpg",
-      "year": 2006,
-      "genre": "Folk",
-      "subGenre": "Country",
-      "audio": "",
-      "price": 15
-    },
-    {
-      "id": 45,
-      "title": "Hybrid Theory",
-      "artist": "Linkin Park",
-      "image": "https://ia601203.us.archive.org/30/items/mbid-83c45b6c-69ee-4eb0-903b-bd944ed59d48/mbid-83c45b6c-69ee-4eb0-903b-bd944ed59d48-14504943757_thumb250.jpg",
-      "year": 2001,
-      "genre": "Rock",
-      "subGenre": "Alternative Rock",
-      "audio": "",
-      "price": 17
-    },
+    
     {
       "id": 46,
       "title": "Toxicity",
@@ -517,17 +523,7 @@
       "audio": "",
       "price": 18
     },
-    {
-      "id": 49,
-      "title": "The Yellow Album",
-      "artist": "SpongeBob SquarePants",
-      "image": "https://ia600207.us.archive.org/34/items/mbid-e3327f9f-b394-4e7e-9506-8d6c986d8164/mbid-e3327f9f-b394-4e7e-9506-8d6c986d8164-22079363340_thumb250.jpg",
-      "year": 2005,
-      "genre": "Heavy Metal",
-      "subGenre": "psychobilly",
-      "audio": "",
-      "price": 30
-    },
+
     {
       "id": 50,
       "title": "DAMN.",
@@ -620,6 +616,18 @@
     {
       "email": "yo@gmail.com",
       "id": 20
+    },
+    {
+      "email": "ulises@gmail.com",
+      "id": 21
+    },
+    {
+      "email": "abc@gmail.com",
+      "id": 22
+    },
+    {
+      "email": "jhirotsu@gmail.com",
+      "id": 23
     }
   ]
 }

@@ -15,6 +15,7 @@ function SearchFilter({search, setSearch}) {
             id="header-search"
             placeholder="Search by title, artist, year, genre"
             name="s" 
+            autoComplete="off"
             value= {search}
             onChange = {e=>setSearch(e.target.value)}
             className="live-search-form-field"

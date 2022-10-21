@@ -1,6 +1,6 @@
 
 import '../App.css';
-
+import ScrollToTop from "./ScrollToTop";
 import React, {useState, useEffect} from 'react';
 import Header from './Header'
 
@@ -25,6 +25,7 @@ function App () {
       .then(data => setRecords(data))
         
       },[])
+      
         function addToCart (addedrecordData) {
             if (cart.includes(addedrecordData)){
               return (alert('Limit 1 record per order!'))
@@ -41,14 +42,13 @@ function App () {
               setCart(filtrdRecords)
           }
 
-          const filteredrecords = records.filter(record => 
+        const filteredrecords = records.filter(record => 
                 
-                record.title.toLowerCase().includes(search.toLowerCase())||
-                record.artist.toLowerCase().includes(search.toLowerCase())||
-                record.year.toString().includes(search.toString())||
-                record.genre.toLowerCase().includes(search.toLowerCase())||
-                record.subGenre.toLowerCase().includes(search.toLowerCase())
-          
+          record.title.toLowerCase().includes(search.toLowerCase())||
+          record.artist.toLowerCase().includes(search.toLowerCase())||
+          record.year.toString().includes(search.toString())||
+          record.genre.toLowerCase().includes(search.toLowerCase())||
+          record.subGenre.toLowerCase().includes(search.toLowerCase())
         )  
           
 
@@ -69,6 +69,7 @@ function App () {
 
       const handleClick = (item) => {
           // Update cart item quantity if already in cart
+          
           if (cart.some((cartItem) => cartItem === item)) {
             setCart((cart) => 
             cart.map((cartItem) =>
@@ -87,6 +88,7 @@ function App () {
       <Header cart={cart}/> 
       <NavBar cart={cart}/>
       <Container className = "mb-4">
+      <ScrollToTop>
       <Routes>
       <Route exact path="/" element ={<Home filteredrecords= {filteredrecords}/>} />
       
@@ -96,6 +98,7 @@ function App () {
       
       <Route path="/Cart" element={<ShoppingCart setCart= {setCart} cart={filtrdRecords} records={records} filtrdRecords={filtrdRecords} filterRecords={filterRecords} handleDelete={deleteFromArmy}/>}/>
       </Routes>
+      </ScrollToTop>
      </Container>
     </div>
     
@@ -104,26 +107,3 @@ function App () {
 
 export default App;
 
-                  // Add to cart
-                    // setCart((cart) => [
-                    //   ...cart,
-                    //   { ...item, amount: 1 } // <-- initial amount 1
-                    // ]);
-                  
-
-  // const handleChange = (productCode, d) => {
-  //   setCart((cart) =>
-  //     cart.flatMap((cartItem) =>
-  //       cartItem.productCode === productCode
-  //         ? cartItem.amount + d < 1
-  //           ? [] // <-- remove item if amount will be less than 1
-  //           : [
-  //               {
-  //                 ...cartItem,
-  //                 amount: cartItem.amount + d
-  //               }
-  //             ]
-  //         : [cartItem]
-  //     )
-  //   );
-  // };

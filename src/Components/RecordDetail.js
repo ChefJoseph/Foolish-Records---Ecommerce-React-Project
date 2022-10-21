@@ -15,25 +15,24 @@ function RecordDetail({record, addToCart, handleClick}) {
 
     return (
       <Card className ="h-100">
-      <Card.Img variant="top" src={record.image} alt={record.title} height= "200px" style={{objectFit: "cover"}}/>
-      <Card.Body className = "d-flex flex-column">
-      <Card.Title className="d-flex justify-content-between align-items-baseline mb-4">
-        <ul>
-          <li className="fs-3">{record.title}</li>
-          <li className="fs-5 text-muted">{record.artist}</li>
-          <li className="fs-5 text-muted">{record.year}</li>
-          <li className="fs-6 text-muted">${record.price}.00</li>
-        </ul>
-          
-      </Card.Title>
-        
-        <button className="addbutton" 
-        onClick={() =>{
-          handleClick();
-          addToCart(record.id);
-          addButton();}}>{add? "+":"-"}
+        <Card.Img variant="top" src={record.image} alt={record.title} height= "200px" style={{objectFit: "cover"}}/>
+        <Card.Body className = "d-flex flex-column" id="cardparent">
+          <Card.Title className="ok">
+            <ul className="record-list">
+              <li className="fs-3">{record.title}</li>
+              <li className="fs-5 text-muted">{record.artist}</li>
+              <li className="fs-6 text-muted" id="year">{record.year}</li>
+              <li className="fs-6 text-muted" id="price">${record.price}.00</li>
+            </ul>
+          </Card.Title>
+          <button className="addbutton" 
+            onClick={() =>{
+ 
+            handleClick();
+            addToCart(record.id);
+            addButton();}}>{add? "+":"-"}
           </button>
-      </Card.Body>
+        </Card.Body>
       </Card>
     );
   }

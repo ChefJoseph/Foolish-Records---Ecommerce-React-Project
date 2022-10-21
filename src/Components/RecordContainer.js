@@ -9,7 +9,7 @@ function RecordContainer({records,filterRecords, addToCart, handleClick,filtered
     return (
       <div>
      
-      <Row md={3} xs={1} lg={5} className="g-4 record-list">
+      <Row md={3} xs={1} lg={4} className="g-4 record-list">
        {filteredrecords.map(record => 
         <Col key = {record.id}>
           <RecordDetail record= {record} addToCart={addToCart} handleClick={handleClick} filterRecords={filterRecords} />
